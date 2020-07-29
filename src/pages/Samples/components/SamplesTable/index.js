@@ -5,7 +5,7 @@ import { samplesTableColumns } from '../../../../models/sample';
 
 const SamplesTable = ({ samples, onSampleAdd, onSampleDelete, onSampleUpdate }) =>
   <Table
-    title="Amostras"
+    title={`Amostras (${samples.length})`}
     data={samples}
     columns={samplesTableColumns}
     editable={{
