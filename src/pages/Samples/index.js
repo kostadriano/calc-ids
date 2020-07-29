@@ -1,9 +1,15 @@
 import React from 'react';
 import SamplesTable from './components/SamplesTable';
+import { Button, Box } from '@material-ui/core';
 import { generateNewSample } from '../../models/sample';
+import getRandomSampleData from '../../utils/getRandomSampleData';
 
 const Samples = () => {
   const [samples, setSamples] = React.useState([]);
+
+  const generateRandomSamples = () => {
+    setSamples(getRandomSampleData())
+  }
 
   const handleSampleAdd = (sample) => {
     const newSample = generateNewSample(sample)
@@ -33,12 +39,20 @@ const Samples = () => {
   }
 
   return (
-    <SamplesTable
-      samples={samples}
-      onSampleAdd={handleSampleAdd}
-      onSampleDelete={handleDeleteSample}
-      onSampleUpdate={handleSampleUpdate}
-    />
+    <>
+      <Box textAlign="right" marginBottom={2}>
+        <Button onClick={generateRandomSamples} variant="contained" color="primary">
+          Gerar Amostras Aleatórias
+        </Button>
+      </Box>
+
+      <SamplesTable
+        samples={samples}
+        onSampleAdd={handleSampleAdd}
+        onSampleDelete={handleDeleteSample}
+        onSampleUpdate={handleSampleUpdate}
+      />
+    </>
   )
 }
 
