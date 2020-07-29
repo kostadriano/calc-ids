@@ -1,5 +1,6 @@
 import React from 'react';
 import { Input } from '@material-ui/core';
+import { v4 as getUUID } from 'uuid';
 
 const validations = {
   required: value => value != null && value !== '',
@@ -38,5 +39,5 @@ export const samplesTableColumns = [
 
 export const generateNewSample = sample => ({
   ...sample,
-  id: new Date().getTime()
+  id: getUUID()
 })

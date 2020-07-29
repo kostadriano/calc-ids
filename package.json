@@ -12,7 +12,8 @@
     "material-table": "^1.66.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "uuid": "^8.3.0"
   },
   "homepage": "http://kostadriano.github.io/s-dimorph",
   "scripts": {
