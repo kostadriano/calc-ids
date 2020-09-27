@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/s-dimorph/static/css/main.924ea2a5.chunk.css",
-    "main.js": "/s-dimorph/static/js/main.1b59b4ab.chunk.js",
-    "main.js.map": "/s-dimorph/static/js/main.1b59b4ab.chunk.js.map",
-    "runtime-main.js": "/s-dimorph/static/js/runtime-main.e718d816.js",
-    "runtime-main.js.map": "/s-dimorph/static/js/runtime-main.e718d816.js.map",
-    "static/css/2.5ea2b9f9.chunk.css": "/s-dimorph/static/css/2.5ea2b9f9.chunk.css",
-    "static/js/2.471ea204.chunk.js": "/s-dimorph/static/js/2.471ea204.chunk.js",
-    "static/js/2.471ea204.chunk.js.map": "/s-dimorph/static/js/2.471ea204.chunk.js.map",
-    "index.html": "/s-dimorph/index.html",
-    "precache-manifest.d69274b7ae4990c07eaaa89ca127265c.js": "/s-dimorph/precache-manifest.d69274b7ae4990c07eaaa89ca127265c.js",
-    "service-worker.js": "/s-dimorph/service-worker.js",
-    "static/css/2.5ea2b9f9.chunk.css.map": "/s-dimorph/static/css/2.5ea2b9f9.chunk.css.map",
-    "static/css/main.924ea2a5.chunk.css.map": "/s-dimorph/static/css/main.924ea2a5.chunk.css.map",
-    "static/js/2.471ea204.chunk.js.LICENSE.txt": "/s-dimorph/static/js/2.471ea204.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/s-dimorph/static/media/roboto-latin-900-normal.bb1e4dc6.woff"
+    "main.css": "/calc-ids/static/css/main.5f4fe793.chunk.css",
+    "main.js": "/calc-ids/static/js/main.d6db5dc6.chunk.js",
+    "main.js.map": "/calc-ids/static/js/main.d6db5dc6.chunk.js.map",
+    "runtime-main.js": "/calc-ids/static/js/runtime-main.ac7669ab.js",
+    "runtime-main.js.map": "/calc-ids/static/js/runtime-main.ac7669ab.js.map",
+    "static/css/2.beaa35ee.chunk.css": "/calc-ids/static/css/2.beaa35ee.chunk.css",
+    "static/js/2.989774fd.chunk.js": "/calc-ids/static/js/2.989774fd.chunk.js",
+    "static/js/2.989774fd.chunk.js.map": "/calc-ids/static/js/2.989774fd.chunk.js.map",
+    "index.html": "/calc-ids/index.html",
+    "precache-manifest.bafc936ea729313a5046dc775bfa4c94.js": "/calc-ids/precache-manifest.bafc936ea729313a5046dc775bfa4c94.js",
+    "service-worker.js": "/calc-ids/service-worker.js",
+    "static/css/2.beaa35ee.chunk.css.map": "/calc-ids/static/css/2.beaa35ee.chunk.css.map",
+    "static/css/main.5f4fe793.chunk.css.map": "/calc-ids/static/css/main.5f4fe793.chunk.css.map",
+    "static/js/2.989774fd.chunk.js.LICENSE.txt": "/calc-ids/static/js/2.989774fd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/calc-ids/static/media/roboto-latin-900-normal.bb1e4dc6.woff",
+    "static/media/tabela-amostras-exemplo.csv": "/calc-ids/static/media/tabela-amostras-exemplo.bebe6f05.csv"
   },
   "entrypoints": [
-    "static/js/runtime-main.e718d816.js",
-    "static/css/2.5ea2b9f9.chunk.css",
-    "static/js/2.471ea204.chunk.js",
-    "static/css/main.924ea2a5.chunk.css",
-    "static/js/main.1b59b4ab.chunk.js"
+    "static/js/runtime-main.ac7669ab.js",
+    "static/css/2.beaa35ee.chunk.css",
+    "static/js/2.989774fd.chunk.js",
+    "static/css/main.5f4fe793.chunk.css",
+    "static/js/main.d6db5dc6.chunk.js"
   ]
 }
